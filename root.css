@@ -32,20 +32,15 @@
 :root {
     /* default styles */
     --bg-borderRadiusSys: 25px;
-
     --bg-borderRadiusIcon: 17px;
     --bg-scaleIcon: 0.9;
     --bg-scaleIconName: 0.85;
     --icon-bg-size: 120%;
     --icon-bg-size1x2: 124%;
-
     --bg-wallpaperHome: url("/OriginWEB/originData/wallpaper/wallpaper_2.png");
     --bg-wallpaperLock: url("/OriginWEB/originData/wallpaper/wallpaper_1.png");
-
     --bg-colorForBackground: white;
-
     --bg-speedAnimation: 1;
-
     --bg-colorDark0System: rgb(255, 150, 160);
     --bg-colorDark1System: rgb(255, 130, 140);
     --bg-colorDark2System: rgb(255, 110, 120);
@@ -53,9 +48,7 @@
     --bg-colorDark4System: rgb(255, 60, 80);
     --bg-colorDark5System: rgb(255, 40, 60);
     --bg-colorDark6System: rgb(200, 40, 60);
-
     --bg-advancedBlur: 0px;
-
     --bg-liquidOpacity: 0%;
 
     /* dark/light mode*/
@@ -77,8 +70,8 @@
 }
 :root {
     /*animation*/
-    --animOpeningApp-cubicBezier: cubic-bezier(0.15, 0.1, 0.15, 1);
-    --animClosingApp-cubicBezier: cubic-bezier(0.35, 1.1, 0.33, 1);
+    --animOpeningApp-cubicBezier: cubic-bezier(0.52, 0.6, 0, 0.9);
+    --animClosingApp-cubicBezier: cubic-bezier(0.35, 1, 0, 1);
 }
 
 :root {
